@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Heritage Property Feedback</title>
+</head>
+<body>
+
+  <div class="container">
+    <h2>Heritage Property Feedback Form</h2>
+    <form id="feedbackForm">
+      
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <br>
+      <br>
+      
+
+      <fieldset>
+        <legend><b>Your feedback</b></legend>
+      <textarea id="feedback" name="feedback" rows="4" required></textarea>
+      </fieldset>
+      
+      <br>
+      
+      
+    </form>
+    <button type="submit" onclick="ansh()">Submit Feedback</button>
+      <script>
+        function ansh()
+        {
+        document.getElementById('feedbackForm').reset();
+        
+alert('feedback submitted successfully');
+        }
+      </script>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

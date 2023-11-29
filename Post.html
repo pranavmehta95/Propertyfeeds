@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Post</title>
+    <link rel="icon" href="Assets/Images/logo.png" type="image/icon type">
+    <link rel="stylesheet" href="style2.css">    
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <a href="index.html"><img src="Assets/Images/logo.png" class="logo"></a>
+            <ul>
+                <li> <a href="Buy.html"><b>Buy</b></a></li>
+                <li> <a href="Rent.html"><b>Rent</b></a></li>
+                <li> <a href="Sell.html"><b>Sell</b></a></li>
+                <li> <a href="Post.html"><b>Post Property for Free</b></a></li>
+                <li> <a href="login.html"><b>Hello/Signup</b></a></li>
+                <li> <a href="Contact.html"><b>Contact us</b></a></li>
+            </ul>
+        </div>
+        <form class="form-style" action="">
+            <fieldset class="form">
+                <label for="Name">Name:</label>
+                <input type="text" id="Name" name="Name" required>
+                <label for="Mob. no.">Mob. no.:</label>
+                <input type="tel" id="Mob. no." name="Mob. no." pattern="[0-9]{10}" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="location">Property Location url:</label>
+                <input type="url" id="Location" name="Property Location url"><br>
+                <label for="Facing">Facing:</label>
+                <input type="radio" id="North" name="Facing" value="North">
+                <label for="North">North</label>
+                <input type="radio" id="South" name="Facing" value="South">
+                <label for="South">South</label>
+                <input type="radio" id="East" name="Facing" value="East">
+                <label for="East">East</label>
+                <input type="radio" id="West" name="Facing" value="West">
+                <label for="West">West</label><br><br>
+                <label for="Asking price">Asking price (INR):</label>
+                <input type="number" id="Asking price" name="Asking price" required><br><br>
+                <label for="myfile">Upload photo:</label>
+                <input type="file" id="myfile" name="myfile" multiple required><br>
+                <label for="myfile">Upload photo:</label>
+                <input type="file" id="myfile" name="myfile" multiple required><br>
+                <label for="myfile">Upload photo:</label>
+                <input type="file" id="myfile" name="myfile" multiple required><br>
+                <label for="myfile">Upload photo:</label>
+                <input type="file" id="myfile" name="myfile" multiple required><br>
+                <label for="myfile">Upload photo:</label>
+                <input type="file" id="myfile" name="myfile" multiple required><br><br>
+                <label for="Description">Description:</label><br>
+                <textarea rows="5" cols="50" name="Description" id="Description"></textarea><br>
+                <button type="submit">Upload Property Details</button>
+                <input type="reset" value="Reset">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
